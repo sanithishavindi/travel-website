@@ -54,16 +54,15 @@ function About() {
               About Us
             </h6>
             <h1 className="mb-4">
-              Welcome to <span className="text-primary">Tourist</span>
+              Welcome to <span className="text-primary">Dinuka Tours</span>
             </h1>
             <p className="mb-4">
-              Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu
-              diam amet diam et eos. Clita erat ipsum et lorem et sit.
+              Golden Lanka Tours own by Krishnajith who is passionate about his beautiful home land and with 18 years experience in 
+              the tourist and hospitality industry is a knowledgeable tour agent and guide. 
             </p>
             <p className="mb-4">
-              Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu
-              diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet
-              lorem sit clita duo justo magna dolore erat amet
+              Specializing in providing tour packages that can be tailor made to suit each clients needs from airport pick and drop 
+              off or hotel pick up all the guides are flexible and accommodating.
             </p>
             <div className="row gy-2 gx-4 mb-4">
               <div className="col-sm-6">
@@ -124,7 +123,7 @@ function About() {
           <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
             <div className="team-item">
               <div className="overflow-hidden">
-                <img className="img-fluid" src="assets/img/team-1.jpg" alt="" />
+                <img className="img-fluid" src="assets/img/krishna.jpg" alt="" />
               </div>
               <div
                 className="position-relative d-flex justify-content-center"
@@ -141,8 +140,8 @@ function About() {
                 </a>
               </div>
               <div className="text-center p-4">
-                <h5 className="mb-0">Full Name</h5>
-                <small>Designation</small>
+                <h5 className="mb-0">Sujeewa Krishnajith</h5>
+                <small>Proprietor</small>
               </div>
             </div>
           </div>
