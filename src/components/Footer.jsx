@@ -36,11 +36,11 @@ export default function Footer() {
             </p>
             <p className="mb-2">
               <i className="fa fa-phone-alt me-3" />
-              +012 345 67890
+              +94 777 258 971
             </p>
             <p className="mb-2">
               <i className="fa fa-envelope me-3" />
-              info@example.com
+              info@goldenlankatours.com
             </p>
             <div className="d-flex pt-2">
               <a className="btn btn-outline-light btn-social" href="/">

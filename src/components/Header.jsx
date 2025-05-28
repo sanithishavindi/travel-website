@@ -27,17 +27,17 @@ function Header() {
             className="d-inline-flex align-items-center"
             style={{ height: 45 }}
           >
-            <small className="me-3 text-light">
+            {/* <small className="me-3 text-light">
               <i className="fa fa-map-marker-alt me-2" />
               123 Street, New York, USA
-            </small>
+            </small> */}
             <small className="me-3 text-light">
               <i className="fa fa-phone-alt me-2" />
-              +012 345 6789
+              +94 777 258 971
             </small>
             <small className="text-light">
               <i className="fa fa-envelope-open me-2" />
-              info@example.com
+              info@goldenlankatours.com
             </small>
           </div>
         </div>

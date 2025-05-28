@@ -64,47 +64,53 @@ function About() {
               Specializing in providing tour packages that can be tailor made to suit each clients needs from airport pick and drop 
               off or hotel pick up all the guides are flexible and accommodating.
             </p>
+            <div>
+              <a className="btn btn-primary py-3 px-5 mt-2" >
+              What we have to offer
+            </a>
+            <br></br><br></br>
+            </div>
             <div className="row gy-2 gx-4 mb-4">
               <div className="col-sm-6">
                 <p className="mb-0">
                   <i className="fa fa-arrow-right text-primary me-2" />
-                  First Class Flights
+                  Safety and Security.
                 </p>
               </div>
               <div className="col-sm-6">
                 <p className="mb-0">
                   <i className="fa fa-arrow-right text-primary me-2" />
-                  Handpicked Hotels
+                  Friendliness and knowledge.
                 </p>
               </div>
               <div className="col-sm-6">
                 <p className="mb-0">
                   <i className="fa fa-arrow-right text-primary me-2" />5 Star
-                  Accommodations
+                  Experience and well Qualified Drivers and Guides.
                 </p>
               </div>
               <div className="col-sm-6">
                 <p className="mb-0">
                   <i className="fa fa-arrow-right text-primary me-2" />
-                  Latest Model Vehicles
+                  Comfortable Vehicles fully insured.
                 </p>
               </div>
               <div className="col-sm-6">
                 <p className="mb-0">
                   <i className="fa fa-arrow-right text-primary me-2" />
-                  150 Premium City Tours
+                  Tourist Board Approved certificates.
                 </p>
               </div>
               <div className="col-sm-6">
                 <p className="mb-0">
                   <i className="fa fa-arrow-right text-primary me-2" />
-                  24/7 Service
+                  Itineraries to suit all requirements.
                 </p>
               </div>
             </div>
-            <a className="btn btn-primary py-3 px-5 mt-2" href="">
+            {/* <a className="btn btn-primary py-3 px-5 mt-2" href="">
               Read More
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
@@ -117,7 +123,7 @@ function About() {
           <h6 className="section-title bg-white text-center text-primary px-3">
             Travel Guide
           </h6>
-          <h1 className="mb-5">Meet Our Guide</h1>
+          <h1 className="mb-5">Meet Our Team</h1>
         </div>
         <div className="row g-4">
           <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -132,8 +138,8 @@ function About() {
                 <a className="btn btn-square mx-1" href="">
                   <i className="fab fa-facebook-f" />
                 </a>
-                <a className="btn btn-square mx-1" href="">
-                  <i className="fab fa-twitter" />
+                <a className="btn btn-square mx-1" href="info@goldenlankatours.com">
+                  <i class="fa fa-envelope" aria-hidden="true"></i>
                 </a>
                 <a className="btn btn-square mx-1" href="">
                   <i className="fab fa-instagram" />
@@ -148,7 +154,7 @@ function About() {
           <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
             <div className="team-item">
               <div className="overflow-hidden">
-                <img className="img-fluid" src="assets/img/team-2.jpg" alt="" />
+                <img className="img-fluid" src="assets/img/kerv.jpg" alt="" />
               </div>
               <div
                 className="position-relative d-flex justify-content-center"
@@ -157,20 +163,20 @@ function About() {
                 <a className="btn btn-square mx-1" href="">
                   <i className="fab fa-facebook-f" />
                 </a>
-                <a className="btn btn-square mx-1" href="">
-                  <i className="fab fa-twitter" />
+                <a className="btn btn-square mx-1" href="nfo@goldenlankatours.com">
+                  <i className="fa fa-envelope" />
                 </a>
                 <a className="btn btn-square mx-1" href="">
                   <i className="fab fa-instagram" />
                 </a>
               </div>
               <div className="text-center p-4">
-                <h5 className="mb-0">Full Name</h5>
-                <small>Designation</small>
+                <h5 className="mb-0">Alston kervyn Celestine</h5>
+                <small>Tour Oprator</small>
               </div>
             </div>
           </div>
-          <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+          {/* <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
             <div className="team-item">
               <div className="overflow-hidden">
                 <img className="img-fluid" src="assets/img/team-3.jpg" alt="" />
@@ -219,7 +225,7 @@ function About() {
                 <small>Designation</small>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
