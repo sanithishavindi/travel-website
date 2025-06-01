@@ -34,13 +34,14 @@ function Packages() {
           <h6 className="section-title bg-white text-center text-primary px-3">
             Packages
           </h6>
-          <h1 className="mb-5">Awesome Packages</h1>
+          <h1 className="mb-5">Tour Packages</h1>
+          <p>Custom Package Please Contact Us</p>
         </div>
         <div className="row g-4 justify-content-center">
           <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
             <div className="package-item">
               <div className="overflow-hidden">
-                <img className="img-fluid" src="assets/img/package-1.jpg" alt="" />
+                <img className="img-fluid" src="assets/img/honymoon2.jpg" alt="" />
               </div>
               <div className="d-flex border-bottom">
                 <small className="flex-fill text-center border-end py-2">
