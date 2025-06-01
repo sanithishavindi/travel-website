@@ -30,10 +30,10 @@ export default function Footer() {
           </div>
           <div className="col-lg-3 col-md-6">
             <h4 className="text-white mb-3">Contact</h4>
-            <p className="mb-2">
+            {/* <p className="mb-2">
               <i className="fa fa-map-marker-alt me-3" />
               123 Street, New York, USA
-            </p>
+            </p> */}
             <p className="mb-2">
               <i className="fa fa-phone-alt me-3" />
               +94 777 258 971
