@@ -168,12 +168,27 @@ function Packages() {
           </div>
 
           {/* Agoda-Style Hotel Search Widget */}
-          <div className="row justify-content-center mt-5">
+          <div className="row justify-content-center mt-5" 
+          style={{
+            backgroundImage: 'url(https://cdn0.agoda.net/images/sherpa/bg/v2/Sherpa-dark-1-squarecalendar.jpg)',
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            }}>
             <div className="col-md-6">
               <div style={hotelWidgetStyles.container}>
                 <div style={hotelWidgetStyles.background}></div>
                 <div style={hotelWidgetStyles.content}>
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Agoda_logo.svg/2560px-Agoda_logo.svg.png" alt="agoda" style={{ height: '24px' }} />
+                 <a
+                    href="https://www.agoda.com/affiliate?cid=1792737&hl=en&pcs=11&checkIn=2024-08-12&checkOut=2024-08-13&adults=2&rooms=1&pslc=1&ds=MezlKBI3o95eVMph"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                  <img
+                    src="assets/img/agada.png"
+                    alt="Agoda"
+                    style={{ height: '24px' }}
+                  />
+              </a>
                   <h4 className="mt-3 fw-bold">FIND YOUR<br />NEXT HOTEL</h4>
                   <p className="mb-3">in agoda.com</p>
                   <form>
