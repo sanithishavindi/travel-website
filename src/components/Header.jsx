@@ -48,12 +48,14 @@ function Header() {
           >
             <a
               className="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2"
+              href=''
               to=""
             >
               <i className="fab fa-twitter fw-normal" />
             </a>
             <a
               className="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2"
+              href="https://www.facebook.com/goldenlankatours/"
               to=""
             >
               <i className="fab fa-facebook-f fw-normal" />
