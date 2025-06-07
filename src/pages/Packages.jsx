@@ -10,6 +10,7 @@ function Packages() {
       persons: '2 Persons',
       price: '$499.00',
       description: 'Romantic escapes with private beaches, luxury resorts, and candle-lit dinners under the stars.',
+      link: '/HoneymoonPackage'
     },
     {
       title: 'BEAUTY OF SRI LANKA',
@@ -158,8 +159,8 @@ function Packages() {
                     </div>
                     <p>{pkg.description}</p>
                     <div className="d-flex justify-content-center gap-2">
-                      <a href="#" className="btn btn-sm btn-success px-4 rounded-pill">Read More</a>
-                      <a href="#" className="btn btn-sm btn-success px-4 rounded-pill">Book Now</a>
+                      <a href={pkg.link || '#'}  className="btn btn-sm btn-success px-4 rounded-pill">Read More</a>
+                      {/* <a href="#" className="btn btn-sm btn-success px-4 rounded-pill">Book Now</a> */}
                     </div>
                   </div>
                 </div>
