@@ -53,6 +53,15 @@ function HoneymoonPackage() {
       ],
       stay: 'Ella',
     },
+    {
+      day: 'Day 08',
+      route: 'Ella to Krinda',
+      attraction: [
+        'seta covila',
+        'Rawana ealla',
+      ],
+      stay: 'Kirinda',
+    },
   ];
 
   return (
